@@ -1,0 +1,779 @@
+/* style.css */
+.about1last{
+  justify-content: space-evenly;
+
+}
+
+
+/* About Crd CSS */
+.card-container3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.card3 {
+  width: calc(25% - 10px); /* Adjust the width as needed */
+  background-color: #fff;
+  padding: 30px;
+  border: 4px solid #d43f21; /* Red border */
+  border-radius: 2px;
+  box-shadow: 0 0 0 2px black, 0 0 0 4px #fff; /* Second red border with space */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+  justify-content: space-evenly;
+}
+
+.card3 h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card3 p {
+  text-align: center;
+  font-size: 1em;
+}
+/* About Card Css End*/
+
+
+
+/* It services We Provide */
+.flex{
+  display: flex;
+  justify-content: space-around;
+} 
+.justify-center{
+  justify-content: center;
+}
+.w-24{
+  width: 6rem;
+}
+.bg-red-500{
+--tw-bg-opacity : 1;
+background-color: #eF4444;
+
+}
+.duration-700{
+  transition-duration: .7s;
+}
+H-1{
+  height: 0.25rem;;
+}
+/* End It Services */
+
+.image_container1{
+  position: relative;
+  text-align: left;
+}
+.centered_text{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+.image_container2{
+  position: relative;
+  text-align: left;
+}
+.centered_text2{
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+/* index why chose us css */
+
+/* index image row and column */
+
+.image-container {
+  display: grid;
+  /* justify-content: space-evenly; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 20px;
+}
+
+.image-column img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+  object-fit : cover;
+  /* animation: pop-in 0.3s ease; */
+  /* transition: transform 0.3s ease; */
+  transform: scale(0.9);
+  /* opacity: 0.7; */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.image-column img:hover {
+  transform: scale(1);
+  opacity: 1;
+}
+.image-wrapper {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  top: 70%;
+  /* bottom: 20px; */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.0);
+  padding: 5px;
+  font-size: 14px;
+}
+.image-wrapper {
+  position: relative;
+  width: 100%; /* Ensure the wrapper takes the full width of the image */
+}
+/* .image-column img:hover{
+  transform: scale(1.1);
+} */
+/* 
+@keyframes pop-in {
+  0% {
+      transform: scale(0.9);
+      opacity: 0.7;
+  }
+  100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+} */
+
+/* index image row and column end */
+
+
+/* Card CSS */
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.card {
+  width: calc(25% - 10px); /* Adjust the width as needed */
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1em;
+}
+/* Card CSS End */
+
+
+.container1 {
+  display: flex;
+  /* align-items: flex-start; */
+  justify-content: space-evenly;
+  height: 60vh;
+  padding-top: 30px;
+}
+
+.image {
+  position: relative;
+  padding-left: 50px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  font-size: 24px;
+}
+
+.content {
+  padding-left:20px;
+}
+
+.text-box {
+  /* border: 2px solid #ccc; */
+  /* position: sticky; */
+  padding-top: 0px;
+  /* padding: 20px; */
+  max-width: 500px; /*Adjust as needed*/
+  word-wrap: nowrap;
+  font-size: 20px;
+}
+
+.text-box p {
+  font-size: 16px;
+  /* line-height: 1.6; */
+  font-size: 18px;
+}
+/* why choose us css end */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.item-image img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.item-text {
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0 0 8px 8px;
+}
+
+.item-text h4 {
+  margin: 0 0 5px;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color:black;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: gray;
+}
+li.dropdown{
+  display: inline-block;
+}
+
+/* Header CSs */
+header {
+  background-color: #fff;
+  padding: 10px 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.nav-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+header + main {
+  padding-top: 10px; /* Adjust this value based on your header's height */
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.logo img {
+  max-width: 100%;
+  height: auto;
+  width: 20%;
+}
+
+
+/* Header Css End */
+
+
+
+
+.container {
+  display: flex;
+  align-items: center; /* This centers items vertically */
+  /* padding-left: 20px; */
+  justify-content: space-between;
+}
+.text {
+  
+  padding: 25px 50px 75px 100px;
+  flex-grow: 1; /* This makes the text take up all available space */
+  text-align: center;
+}
+/* Add this to style.css */
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+/* Add more specific styles for your content if needed */
+
+/* Footer Css Here */
+footer {
+  background-color: white;
+  color:black;
+  padding: 40px 20px;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-logo img {
+  max-width: 150px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.footer-contact h3,
+.footer-social h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-social ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-social img {
+  max-width: 30px;
+}
+
+.footer-bottom {
+  
+  background-color:  #00295B;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+
+/* Footer Css End */
+
+
+/* contact CSS */
+/* Add your custom CSS styles here */
+
+.block {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin: 20px;
+  max-width: 600px; /* Adjust as needed */
+  margin: initial;
+}
+
+.formkit-form {
+  padding: 20px;
+}
+
+.formkit-fieldset {
+  border: none !important;
+}
+
+/* Style form fields (input, textarea) */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Style submit button */
+button[type="submit"] {
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background: #FFA500;
+  border-color: #FFA500;
+}
+
+
+/* Add your custom CSS styles here */
+
+.contact-us {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 50px auto;
+  max-width: 1200px;
+}
+
+.contact-info, .contact-form, .contact-map {
+  /* width: calc(33.33% - 20px); */
+  margin-bottom: 40px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.info-icon {
+  width: 30px; /* Adjust as needed */
+  height: 30px; /* Adjust as needed */
+  margin-right: 10px;
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.form-group input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.info-icon {
+  margin-right: 10px;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 300px; /* Adjust as needed */
+}
+
+/* porfolio CSs */
+
+
+#portfolio {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+}
+
+.portfolio-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.portfolio-title h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.portfolio-item {
+  width: calc(20% - 10px);
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  /* height: auto; */
+  display: block;
+}
+
+.portfolio-item .item-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  text-align: center;
+}
+
+.portfolio-item .item-text h4 {
+  font-size: 18px;
+  color: #333;
+  margin: 0 0 10px;
+}
+
+.portfolio-item .item-text p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; /* This ensures the image covers the entire container */
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.1);
+}
+
+
+
+/* porfolio End */
+
+/* careers css */
+.container2 {
+  display: flex;
+  align-items: center; /* This centers items vertically */
+  /* padding-left: 20px; */
+  justify-content: space-evenly;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.button2{
+ background-color:#d43f21 ;
+ color: white;
+ padding: 8px 16px;
+ border-radius: 10px;
+}
+.button2 > a{
+  text-decoration-line: none;
+}
+.job-listing {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.text a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #007BFF;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+
+/* contact us Extra */
+/* Form Container Styles */
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Form Styles */
+.formkit-form {
+  max-width: 600px; /* Adjust the width as needed */
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Heading Styles */
+.formkit-form h2 {
+  font-size: 1.75rem; /* Adjust font size */
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Option Styles */
+.formkit-options {
+  list-style: none;
+  padding: 0;
+}
+
+.formkit-option {
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 0.375rem;
+  margin-bottom: 0.75rem;
+}
+
+.formkit-option input {
+  margin: 0;
+}
+
+.formkit-option label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+
+/* Input Styles */
+.formkit-form input,
+.formkit-form textarea {
+  /* width: 100%; */
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.375rem;
+  margin-bottom: 1rem;
+}
+
+/* Checkbox Styles */
+.formkit-decorator {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Submit Button Styles */
+.formkit-actions button {
+  cursor: pointer;
+  font-size: 1rem; /* Adjust font size */
+  padding: 0.75rem 1.5rem; /* Adjust padding */
+  border: none;
+  border-radius: 0.375rem;
+  background-color: #ff5722; /* Adjust background color */
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.formkit-actions button:hover {
+  background-color: #ff7043; /* Adjust hover background color */
+}
+
+/* Optional: Hover Effect */
+.formkit-option:hover {
+  background-color: #f5f5f5;
+}
